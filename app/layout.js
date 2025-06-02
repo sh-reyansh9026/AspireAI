@@ -9,7 +9,7 @@ import { Toaster } from "@/components/ui/sonner";
 const inter = Inter({subsets: ['latin']});
 
 export const metadata = {
-  title: "CareerCraft - An AI powered Career Coach",
+  title: "AspireAI – Where Aspirations Meet AI",
   description: "",
 };
 
@@ -17,6 +17,9 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider appearance={{baseTheme: dark}}>
       <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
+      </head>
         <body
           className={`${inter.className}`}
         >
